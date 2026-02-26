@@ -341,7 +341,7 @@ public class Tic_Tac_Toe extends JPanel implements ActionListener
             buttonDisabler();
         }
         
-        else if(text[0].equals("O") && text[3].equals("O") && text[6].equals("O") || text[0].equals("X") && text[3].equals("X") && text[6].equals("X"))
+        else if(text[0].equals("O") && text[3].equals("O") && text[6].equals("O") || text[3].equals("X") && text[3].equals("X") && text[6].equals("X"))
         {
             buttonDisabler();
         }
